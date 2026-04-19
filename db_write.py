@@ -3,7 +3,6 @@ from playwright.async_api import async_playwright
 import sqlite3
 import time
 
-
 DB_PATH = 'comments.db'
 
 def init_db():
